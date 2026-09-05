@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: api-vendor-service
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/vendors
+    username: postgres
+    password: admin
+
+server:
+  port: 8089
