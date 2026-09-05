@@ -1,6 +1,8 @@
 spring:
   application:
     name: api-vendor-service
+  webflux:
+    base-path:  /apiVendorService
   r2dbc:
     url: r2dbc:postgresql://localhost:5432/vendors
     username: postgres
